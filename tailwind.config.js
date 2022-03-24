@@ -10,6 +10,7 @@ module.exports = {
         'braid' :"url('./Assets/braid.jpg')",
         'color' :"url('./Assets/color.jpg')",
         'haircut' :"url('./Assets/haircut.jpg')",
+        'tools' :"url('./Assets/tool.jpg')",
       }
     },
   },

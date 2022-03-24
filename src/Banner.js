@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="bg-gray-900 bg-opacity-25 w-full h-[90vh]">
         <blockquote className="text-2xl font-semibold italic text-center text-slate-900">
           <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
-            <span className="relative text-white text-3xl ">Yaay Salon</span>
+            <span className="relative text-white text-3xl ">Diva's Salon</span>
           </span>
         </blockquote>
         <div className="flex flex-col justify-center">
@@ -22,7 +22,7 @@ const Banner = () => {
 
             <span className="before:block before:absolute before:-inset-1 before:-skew-x-12 before:bg-blue-300 relative inline-block text-white">
               <span className="relative text-white text-3xl before:-skew-x-6 ">
-              laced with a twist from heaven
+               laced with a twist from heaven
               </span>
             </span>
 

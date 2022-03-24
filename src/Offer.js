@@ -10,7 +10,7 @@ const Offer = () => {
 
       <div className="flex  justify-around items-center p-2 w-full ">
 
-        <div className="flex flex-col-reverse flex-end bg-white w-1/4 h-[60vh] mt-5 bg-braid bg-cover bg-top mr-2 shadow-md">
+        <div className="flex flex-col-reverse flex-end bg-white w-1/4 h-[60vh] mt-5 bg-braid bg-cover bg-top mr-2 shadow-md hover:shadow-xl hover:shadow-white-500/50">
           <div className="text-purple-200 italic font-semibold text-lg ">
             Hair Braiding
           </div>
@@ -22,13 +22,13 @@ const Offer = () => {
           </div>
         </div>
 
-        <div className="bg-white w-1/4 h-[60vh] mt-5 bg-haircut bg-cover bg-center mr-2 drop-shadow-xl">
+        <div className="bg-white w-1/4 h-[60vh] mt-5 bg-haircut bg-cover bg-center mr-2 drop-shadow-xl hover:shadow-xl hover:shadow-black-500/50">
           <h3 className="text-yellow-500 italic font-semibold text-lg ">
             Hair Cuts & Stylings
           </h3>
         </div>
 
-        <div className="bg-white w-1/4 h-[60vh] mt-5 bg-color bg-cover bg-top mr-2">
+        <div className="bg-white w-1/4 h-[60vh] mt-5 bg-color bg-cover bg-top mr-2 hover:shadow-xl hover:shadow-red-500/50">
           <h3 className="text-violet-300 italic font-semibold text-lg ">
             Color Correction
           </h3>
