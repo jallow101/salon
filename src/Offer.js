@@ -3,8 +3,8 @@ import treat from "./Assets/black.jpg";
 
 const Offer = () => {
   return (
-    <div className=" bg-yellow-500 opacity-85 h-[100vh]">
-      <h1 className="snap-start font-extrabold text-3xl text-white">
+    <div className="snap-center bg-white opacity-85 h-[100vh]">
+      <h1 className="font-extrabold text-3xl text-grey-700 mt-5">
         We Offer
       </h1>
 
@@ -36,12 +36,12 @@ const Offer = () => {
       </div>
 
       <div className="flex justify-center m-2">
-        <h6 className="font-semibold font-mono text-3xl text-white rounded-full">
+        <h6 className="font-light font-serif text-3xl text-grey-100 rounded-full">
           Enjoy the unique experience
         </h6>
       </div>
       <div className="flex  justify-center">
-        <h2 className="w-1/3 bg-black my-2 py-2 px-3 text-2xl font-semibold text-white rounded-full cursor-pointer">
+        <h2 className="w-1/4 bg-black my-1 py-1 px-1 text-xl font-semibold text-white rounded-full cursor-pointer">
           Book appoint now
         </h2>
       </div>

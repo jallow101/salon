@@ -3,8 +3,8 @@ import tools from "./Assets/tool.jpg";
 
 const Shop = () => {
   return (
-    <div className="w-full bg-slate-100 flex justify-center h-[80vh]">
-      <div className="w-4/5 bg-white rounded-xl h-[50vh] m-20 bg-tools bg-contain bg-no-repeat bg-right shadow-2xl">
+    <div className="snap-start bg-slate-100 flex justify-center items-center h-[100vh]">
+      <div className="w-4/5 bg-white rounded-xl h-[50vh] bg-tools bg-contain bg-no-repeat bg-right shadow-2xl">
         <div className="flex w-full h-full">
           <div className="flex flex-col justify-center items-center w-3/5 h-100 bg-white skew-x-12 ml-10">
             <div className="shop text-3xl text-wi text-black font-serif ">

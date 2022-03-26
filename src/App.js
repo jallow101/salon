@@ -1,16 +1,18 @@
-import './App.css';
-import Banner from './Banner';
-import Header from './Header';
-import Offer from './Offer';
-import Shop from './Shop';
+import "./App.css";
+import Banner from "./Banner";
+import Footer from "./Footer";
+import Header from "./Header";
+import Offer from "./Offer";
+import Shop from "./Shop";
 
 function App() {
   return (
-    <div className="App h-screen">
-      <Header/>
-      <Banner/>
-      <Offer/>
-      <Shop/>
+    <div className="App h-screen snap-mandatory">
+      <Header />
+      <Banner />
+      <Offer />
+      <Shop />
+      <Footer />
     </div>
   );
 }
