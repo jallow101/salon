@@ -3,14 +3,11 @@ import treat from "./Assets/black.jpg";
 
 const Offer = () => {
   return (
-    <div className="snap-center bg-white opacity-85 h-[100vh]">
-      <h1 className="font-extrabold text-3xl text-grey-700 mt-5">
-        We Offer
-      </h1>
+    <div className="snap-start flex flex-col justify-center bg-white opacity-85 h-[100vh] mt-30">
+      <h1 className="font-extrabold sm:text-xl md:text-3xl text-grey-700 md:mt-10 sm:mt-5">We Offer</h1>
 
-      <div className="flex  justify-around items-center p-2 w-full ">
-
-        <div className="flex flex-col-reverse flex-end bg-white w-1/4 h-[60vh] mt-5 bg-braid bg-cover bg-top mr-2 shadow-md hover:shadow-xl hover:shadow-white-500/50">
+      <div className="flex justify-around items-center p-2">
+        <div className="flex flex-col-reverse flex-end bg-white w-1/4 h-[60vh] mt-5 bg-braid bg-cover bg-top mr-2 shadow-md hover:scale-1 hover:shadow-xl hover:shadow-white-500/50">
           <div className="text-purple-200 italic font-semibold text-lg ">
             Hair Braiding
           </div>
@@ -36,13 +33,13 @@ const Offer = () => {
       </div>
 
       <div className="flex justify-center m-2">
-        <h6 className="font-light font-serif text-3xl text-grey-100 rounded-full">
+        <h6 className="font-light font-serif sm:text-sm md:text-3xl text-grey-100 rounded-full">
           Enjoy the unique experience
         </h6>
       </div>
       <div className="flex  justify-center">
-        <h2 className="w-1/4 bg-black my-1 py-1 px-1 text-xl font-semibold text-white rounded-full cursor-pointer">
-          Book appoint now
+        <h2 className=" bg-black md:my-1 md:py-1 px-2 md:px-4 sm:text-sm md:text-xl font-semibold text-white md:rounded-full cursor-pointer">
+          Book Now
         </h2>
       </div>
     </div>

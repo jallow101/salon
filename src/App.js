@@ -7,7 +7,7 @@ import Shop from "./Shop";
 
 function App() {
   return (
-    <div className="App h-screen snap-mandatory">
+    <div className="App snap-mandatory snap-y h-[100vh] overflow-y-scroll">
       <Header />
       <Banner />
       <Offer />
