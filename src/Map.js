@@ -23,7 +23,7 @@ const Map = () => {
     <div style={{ height: "60vh", width: "100%" }}>
       <GoogleMapReact
         bootstrapURLKeys={{
-          key: "AIzaSyDSzuJGjpeJEn-udQhdft5fOL2CM8TZ4To",
+          key: process.env.API_KEY,
         }}
         layerTypes={["TrafficLayer"]}
         defaultCenter={defaultProps.center}
