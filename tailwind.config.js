@@ -4,6 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        war: ['Special Elite']
+      },
       backgroundImage: {
         'model-photo': "url('./Assets/black.jpg')",
         'treatment' :"url('./Assets/treatment.jpg')",

@@ -4,7 +4,7 @@ import treat from "./Assets/black.jpg";
 const Offer = () => {
   return (
     <div className="snap-start flex flex-col justify-center bg-white opacity-85 h-[100vh] mt-30">
-      <h1 className="font-extrabold sm:text-xl md:text-3xl text-grey-700 md:mt-10 sm:mt-5">We Offer</h1>
+      <h1 className="font-war sm:text-xl md:text-3xl text-grey-700 md:mt-10 sm:mt-5">We Offer</h1>
 
       <div className="flex justify-around items-center p-2">
         <div className="flex flex-col-reverse flex-end bg-white w-1/4 h-[60vh] mt-5 bg-braid bg-cover bg-top mr-2 shadow-md hover:scale-1 hover:shadow-xl hover:shadow-white-500/50">

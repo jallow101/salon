@@ -7,8 +7,8 @@ const Header = () => {
       <div className="flex text-black text-lg font-bold w-1/3"> </div>
       <div className="flex text-white font-bold w-1/3">
         <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-600 relative inline-block text-white">
-          <span className="relative text-white font-light sm:text-sm  md:text-2xl">
-            DIVAS Salon
+          <span className="relative text-white font-war sm:text-sm  md:text-2xl">
+            Divas Salon
           </span>
         </span>
       </div>
